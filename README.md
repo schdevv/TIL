@@ -1,5 +1,5 @@
 # TIL (Today I Learned)
-경영학과 출신인 컴알못의 학습일기
+경영학과 출신의 개발자 학습일기
 
 # Github 
 
