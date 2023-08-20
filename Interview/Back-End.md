@@ -2,7 +2,7 @@
 
 ### 1. Java
 
-1. Java의 특징
+##### 1. Java의 특징
 ```
 (1) 객체지향 프로그래밍(OOP)
 (2) 자동 메모리 관리()
@@ -10,13 +10,13 @@
 (4) 멀티쓰레드
 (5) 동적 로딩
 ```
-2. Java Thread와 Process의 차이
+##### 2. Java Thread와 Process의 차이
 ```
 ```
-3. Solid 원칙
+##### 3. Solid 원칙
 ```
 ```
-4. Java의 자료구조(Data Structure)
+##### 4. Java의 자료구조(Data Structure)
 ```
 (1) 배열(Array)
 (2) 리스트(List)
@@ -26,7 +26,7 @@
 (6) 스택(Stack)
 (7) 트리(Tree)
 ```
-5. Java의 동작원리
+##### 5. Java의 동작원리
 ```
 (1) Java 소스파일에 코드를 작성하고 Java Compiler를 통해 소스코드를 바이트코드로 변환하여 .Class파일에 저장
 (2) JVM에서 바이트코드를 실행하면서 .Class 파일을 클래스 로더 컴포넌트를 활용해 메모리에 로드
@@ -41,21 +41,38 @@
 ```
 
 ### 3. WEB
-1. RESTful API 방식
+##### 1. RESTful API 방식
 ```
 ``` 
 
 ### 4. Spring
-1. Spring의 특징
+##### 1. Spring의 특징
 ```
 ```
-2. Spring Boot의 장점
+##### 2. Spring Boot의 장점
 ```
 ```
-3. Spring MVC 패턴
+##### 3. Spring MVC 패턴
 ```
+```
+##### 4. Build Tool
+```
+(1) Maven
+(2) Gradle
 ```
 
 ### 5. 배포
 ```
 ```
+
+### 6. ORM
+```
+(1) JPA
+```
+
+### 7. Security
+```
+(1) Spring Security
+(2) JWT
+```
+
