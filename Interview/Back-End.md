@@ -19,6 +19,11 @@
 
 ##### 3. Solid 원칙
 ```
+(1) S (Single Responsibility) : 단일책임의 원칙, 하나의 클래스는 하나의 책임을 가진다.
+(2) O (Open/Closed) : 클래스는 확장은 열려있고 수정은 닫혀야한다. 기존 코드를 변경하지 않고 기능을 수정해야 한다.
+(3) L (Liskov Substitution) : 상속과 다형성, 하위 클래스는 상위 클래스의 인스턴스를 대체할 수 있어야 함.
+(4) I (Interface Segregation) : 클래스가 필요로하는 구체적이고 작은 여러가지 인터페이스로 세분화하는 것이 바람직함. 
+(5) D (Dependency Inversion) : 유연성과 확장성을 위해서 구체적인 구현보다 인터페이스나 추상 클래스에 의존해야 함.
 ```
 ##### 4. Java의 자료구조(Data Structure)
 ```
