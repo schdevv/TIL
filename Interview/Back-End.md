@@ -158,8 +158,16 @@ HTTP 프로토콜 기반의 GET, POST, PUT, DELETE, PATCH 메서드를 사용해
 |7| **커뮤니티 활성화** | 활발한 커뮤니티와 다양한 플러그인 및 확장 기능을 제공. |
 |8| **버전 관리의 용이성** | 스프링 부트는 의존성 버전 관리가 편리하고 사용자는 버전을 직접 관리하는 대신 스프링 부트의 버전을 업그레이드하면 연관된 라이브러리들도 함께 업그레이드가 가능함. |
 ##### 3. Spring MVC 패턴
-```
-```
+|No|Component|Description|
+|---|---|---|
+|1| **Model** | 데이터와 비즈니스 로직을 처리, 주로 Service와 DAO(Domain Access Object)로 구성. |
+|2| **View** | 사용자에게 보여지는 화면, 주로 JSP, Thymeleaf, FreeMarker 등의 템플릿 엔진을 사용하여 구현함. |
+|3| **Controller** | 사용자의 요청을 받아 처리, 적절한 Model을 호출한 다음, 응답을 View로 전달하는 역할. |
+|4| **DispatcherServlet** | 클라이언트의 요청을 받아 적절한 Controller에게 전달하는 중앙 조정자 역할, Spring MVC의 핵심 구성요소. |
+|5| **HandlerMapping** | 클라이언트의 요청 URL을 해석하여 어떤 Controller의 어떤 메서드를 호출할지 결정하는 역할. |
+|6| **ViewResolver** | Controller가 리턴한 문자열(뷰 이름)을 기반으로 실제 뷰 파일의 위치를 찾아주는 역할. |
+|7| **HandlerAdapter** | HandlerMapping을 통해 선택된 Controller를 실행하는 역할. |
+|8| **Form tags & Validation** | (추가요소)사용자 입력 폼을 만들거나 입력된 데이터의 유효성 검사를 수행하는 데 사용되는 태그 및 기능. |
 ##### 4. Build Tool
 ```
 (1) Maven
