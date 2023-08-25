@@ -184,9 +184,14 @@ HTTP 프로토콜 기반의 GET, POST, PUT, DELETE, PATCH 메서드를 사용해
 ```
 ```
 
-### 6. ORM
+### 6. ORM(Object-Relational Mapping)
+- DB의 Table과 프로그래밍 언어의 객체를 매핑하는 프로그래밍 기법.
+- 객체지향 프로그래밍에서 DB를 효율적이고 간결하게 처리할 수 있음.
+1. JPA(Java Persistence API)
 ```
-(1) JPA
+(1) Java에서 제공하는 ORM 표준 명세.
+(2) 인터페이스의 집합으로 제공됨.
+(3) 사용을 위해 구현체가 필요함.
 ```
 
 ### 7. Security
