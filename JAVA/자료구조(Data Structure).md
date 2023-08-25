@@ -2,7 +2,7 @@
 
 ### 1. 자료구조(Data Structure)
 
-|NO|NAME|Content|characteristics|Implementation|
+|NO|NAME|Content|Characteristics|Implementation|
 |---|---|---|---|---|
 |1|**Array**|고정된 크기의 연속된 메모리 공간에 동일한 데이터 타입을 저장|인덱스 기반의 빠른 접근, 크기 변경이 어려움||
 |2|**List**|순서를 유지하며 객체를 저장하는 집합|동적 크기, 중복데이터 허용|ArrayList, LinkedList 등|
