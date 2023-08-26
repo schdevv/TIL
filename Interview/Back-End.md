@@ -181,7 +181,7 @@ HTTP 프로토콜 기반의 GET, POST, PUT, DELETE, PATCH 메서드를 사용해
 |8| **통합 도구** | 대부분의 IDE와 통합 지원 | IntelliJ IDEA, Eclipse 등 주요 IDE와 통합 지원 |
 
 ### 5. 배포
-1. Web
+1-1. Web
 
 |No|Feature|Description|
 |---|---|---|
@@ -193,7 +193,20 @@ HTTP 프로토콜 기반의 GET, POST, PUT, DELETE, PATCH 메서드를 사용해
 |6| **종속성 관리**| 서버 측에서 종속성을 관리. CDN, 웹팩 등의 도구를 사용해 최적화.|
 |7| **퍼포먼스 최적화**| 캐싱, CDN, 압축, 브라우저 최적화 등 다양한 전략이 필요.|
 |8| **가용성 및 확장성**| 서버와 데이터베이스의 가용성과 확장성을 고려해야 함. 클라우드 솔루션 등의 인프라 선택이 중요.|
-2. Software
+
+1-2. Web 배포 관련 라이브러리 및 프레임워크
+| 카테고리| 라이브러리/프레임워크|
+|---|---|
+| **웹 프레임워크**| Spring Boot, Java EE/Jakarta EE, Vert.x, Spark Java|
+| **데이터베이스 연결**  | Hibernate, JPA, MyBatis|
+| **보안**| Spring Security, Java EE Security API|
+| **서버**| Tomcat, Jetty, WildFly, GlassFish|
+| **빌드 및 배포 도구** | Maven, Gradle|
+| **CI/CD**| Jenkins, Travis CI, CircleCI|
+| **컨테이너화**| Docker, Kubernetes|
+| **API 문서화**| Swagger/OpenAPI      
+
+2-1. Software
 
 |No|Feature|Description|
 |---|---|---|
@@ -205,6 +218,18 @@ HTTP 프로토콜 기반의 GET, POST, PUT, DELETE, PATCH 메서드를 사용해
 |6| **종속성 관리**| 사용자 시스템에 필요한 라이브러리나 모듈을 포함하거나, 별도로 설치하도록 안내 필요.|
 |7| **퍼포먼스 최적화**| OS와 하드웨어 리소스를 최적으로 활용하는 최적화 전략 필요.|
 |8| **가용성**| 사용자의 기기 및 환경에서 안정적으로 실행되어야 함.|
+
+2-2. Software 배포 관련 라이브러리 및 프레임워크
+|카테고리|라이브러리/프레임워크|
+|---|---|
+| **데스크톱 앱**| JavaFX, Swing, AWT|
+| **데이터베이스 연결**| SQLite, H2, Derby (JavaDB)|
+| **빌드 및 패키징**| Maven, Gradle, JPackage (Java 14+ for packaging native apps)|
+| **인증 및 보안**| Java KeyStore, BouncyCastle|
+| **외부 서비스 통신** | Java HTTP Client, OkHttp, Retrofit|
+| **최적화 도구**| Java Profiler (e.g., VisualVM, YourKit)|
+| **로깅**| Log4j, SLF4J, Logback|
+| **배포 도구**| Install4J, Launch4j, Inno Setup 
 
 ### 6. ORM(Object-Relational Mapping)
 - DB의 Table과 프로그래밍 언어의 객체를 매핑하는 프로그래밍 기법.
