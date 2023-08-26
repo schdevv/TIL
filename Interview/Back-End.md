@@ -181,6 +181,10 @@ HTTP 프로토콜 기반의 GET, POST, PUT, DELETE, PATCH 메서드를 사용해
 |8| **통합 도구** | 대부분의 IDE와 통합 지원 | IntelliJ IDEA, Eclipse 등 주요 IDE와 통합 지원 |
 
 ### 5. 배포
+1. Web
+```
+```
+2. Software
 ```
 ```
 
@@ -195,8 +199,16 @@ HTTP 프로토콜 기반의 GET, POST, PUT, DELETE, PATCH 메서드를 사용해
 ```
 
 ### 7. Security
-```
-(1) Spring Security
-(2) JWT
-```
+1. Spring Security
+
+|No|Feature|Description|
+|--------|------|----------------|
+|1| **인증 (Authentication)** | 사용자의 아이디와 비밀번호를 통해 확인. `AuthenticationProvider` 구현을 통해 진행되며, 결과는 `SecurityContextHolder`에 저장. |
+|2| **인가 (Authorization)**   | 인증된 사용자가 자원에 접근하거나 작업을 수행할 권한을 확인. `@PreAuthorize`, `@PostAuthorize`, `@Secured` 등의 어노테이션을 사용. |
+|3| **CSRF 보호**| 웹 폼에 토큰을 추가하여 CSRF 공격으로부터 애플리케이션을 보호.|
+|4| **세션 관리**| 사용자 세션을 효과적으로 관리하며, 동일 사용자의 여러 세션 제한이나 세션 만료 리다이렉트 등의 기능을 제공.|
+|5| **비밀번호 인코딩**| 다양한 비밀번호 인코딩 메커니즘 (예: BCrypt, SCrypt)을 통해 저장된 비밀번호의 보안을 강화.|
+|6| **OAuth2 & OpenID Connect** | OAuth2와 OpenID Connect를 지원하여 다양한 서드파티 인증 제공자와의 통합이 가능함.|
+|7| **필터 기반 구조**| HTTP 요청과 응답 처리를 위한 필터 기반의 보안 작업을 수행.|
+2. JWT
 
