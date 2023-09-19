@@ -1,7 +1,7 @@
 #### Network
 
 ### 1. Software Network
-| No | Item| Description| Remarks|
+| No |Item| Description| Remarks|
 |---|---|---|---|
 | 1  | API| 애플리케이션 간의 통신 및 데이터 교환을 위한 인터페이스.| RESTful API, SOAP, GraphQL 등|
 | 2  | Middleware| 서로 다른 시스템이나 애플리케이션 간의 연계를 도와주는 소프트웨어.| Message Queues, ESB (Enterprise Service Bus) 등|

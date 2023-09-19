@@ -1,7 +1,7 @@
 #### Network
 
 ### 1. Web Network
-| No | Item| Description| Remarks|
+| No |Item| Description| Remarks|
 |----|---|---|---|
 | 1  | **IP Address**| 각 장치의 고유한 인터넷 주소. 예: `192.168.1.1`| IPv4, IPv6|
 | 2  | **Domain Name**| IP 주소를 사람이 읽기 쉬운 형태로 변환한 것. 예: `example.com`| TLDs, Subdomains|
