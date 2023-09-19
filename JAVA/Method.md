@@ -49,5 +49,28 @@ Iterator iter = set.iterator();
 while (iter.hashNext())
     System.out.print(iter.next());
 
-// 2) 
+// 2) for-each문 
+for (String item: set)
+    System.out.print(item);
+```
+
+#### 4) HashMap
+```java
+// HashMap : <key, value> 쌍으로 특정한 규칙이 없이 저장되는 자료구조
+// LinkedHashMap : key값의 입력순으로 정렬되며 <key, value> 쌍으로 저장되는 구조
+// TreeMap : Key값이 알파벳순(오름차순)으로 정렬되며 <key, value> 쌍으로 저장되는 구조
+
+HashMap<Integer, String> map = new HashMap<>();
+HashMap<String, String> map = new HashMap();
+
+map.put(1, "사과")
+map.put(2, "바나나")
+map.put(1, "포도") // key1의 value값이 후순위인 "포도"로 대체 됨. (Hash자료구조는 중복이 없음.)
+
+map.remove(1) // key 값으로만 요소를 삭제함
+map.clear() // 모든 데이터 삭제
+map.containskey(1) // key의 값 중 1의 값이 있으면 true, 없으면 false
+map.containsValue("사과") // value 중 "사과"가 있으면 true, 없으면 false
+
+// HashMap의 값을 출력하는 방법
 ```
