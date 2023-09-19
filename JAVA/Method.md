@@ -47,11 +47,11 @@ set.contains(1) // 값이 1이면 true, 없으면 false
 // 1) Iterator(이터레이터) : get 메소드 없이 원소에 접근하는 방법
 Iterator iter = set.iterator();
 while (iter.hashNext())
-    System.out.print(iter.next());
+    System.out.println(iter.next());
 
 // 2) for-each문 
 for (String item: set)
-    System.out.print(item);
+    System.out.println(item);
 ```
 
 #### 4) HashMap
@@ -73,4 +73,10 @@ map.containskey(1) // key의 값 중 1의 값이 있으면 true, 없으면 false
 map.containsValue("사과") // value 중 "사과"가 있으면 true, 없으면 false
 
 // HashMap의 값을 출력하는 방법
+// 1) 하나의 key와 value를 출력
+for (Integer i : map.keySet())
+    System.out.println(i + map.get(i)); // i의 값이 1일 경우, 1과 "포도" 출력.
+// 2) 모든 key와 value를 출력 
+for (Entry<Integer, String> entry : map.entrySet())
+    System.out.println(entry.getKey() + entry.getValue()); 
 ```
