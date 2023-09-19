@@ -1,6 +1,6 @@
 #### JAVA
 
-### 1. 자바의 Method 정리
+### 1. Method (String)
 
 #### 1) String
 ```java
