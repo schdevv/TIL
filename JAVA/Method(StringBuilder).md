@@ -7,7 +7,7 @@
 // String은 한번 만들어지면 문자를 추가하거나 삭제 할 수 없는 변경이 불가능한 구조.
 // StringBuilder는 문자열의 변경이 가능한 구조.
 
-StringBuilder sb = new StringBuilder();
+StringBuilder sb = new StringBuilder();  
 
 sb.append("abc") // 문자열 추가
 sb.insert(2, "kk") // 2 위치에 kk 값을 삽입 : abkkc
