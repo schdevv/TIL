@@ -30,7 +30,19 @@ String[] result = str.split(" ");
 
 // 모든 원소 일괄 출력 예시(Arrays)
 import java.util.Arrays;
+
+    String str = "Hello World";
+    String[] result = str.split(" ");
+    System.out.println(Arrays.toString(result)); // [Hello, World]
+
 str.split() // 띄어쓰기 없는 문자를 str을 한 문자씩 분리해서 String[] 배열로 반환
+// 출력 예시
+String str = "Hello";
+String[] result = str.split("");
+
+for (int i = 0; i < result.length; i++) {
+    System.out.printf("%s,", result[i]); // H,e,l,l,o,
+}
 
 str.trim() // 
 
