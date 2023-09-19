@@ -1,6 +1,6 @@
 #### JAVA
 
-### 1. 자바의 자료구조 정리
+### 1. Method(Data Structure)
 
 #### 1) Queue
 ```java
