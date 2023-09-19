@@ -11,7 +11,7 @@ queue.ofter(2) // 값 추가
 queue.poll() // 첫 번째 값 반환, 비어있으면 null 반환
 queue.remove() // 첫 번째 값 제거
 queue.clear() // 모든 값 삭제
-queue.peek() // 첫 번쨰 값 출력 (제거 X)
+queue.peek() // 첫 번쨰 값 출력 (제거 X) 
 ```
 
 #### 2) Priority Queue
