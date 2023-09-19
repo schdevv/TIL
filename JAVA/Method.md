@@ -44,13 +44,13 @@ for (int i = 0; i < result.length; i++) {
     System.out.printf("%s,", result[i]); // H,e,l,l,o,
 }
 
-str.trim() // 
+str.trim() // str의 앞 뒤 공백을 제거함. 문자열 사이의 공백은 제거되지 않음.
 
-str.toLowerCase() // 
-str.toUpperCase() //
+str.toLowerCase() // 대문자를 소문자로 변경
+str.toUpperCase() // 소문자를 대문자로 변경
 
-str.compareTo("abcdd") //
+str.compareTo("abcdd") // str과 abcdd가 같으면 0, str이 abcdd보다 사전순으로 앞이면 -1, str이 abcdd보다 사전순으로 뒤면 1, str과 abcdd가 마지막 문자만 다르다면 마지막 문자의 사전순 차이를 반환함(e와 d의 차이인 1을 반환)
 
-Integer.parseInt("300") // 
-Integer.toString(300) // 
+Integer.parseInt("300") // 문자열을 숫자로 변환
+Integer.toString(300) // 문자열을 숫자로 변환 
 ```
